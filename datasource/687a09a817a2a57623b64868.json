@@ -1,0 +1,26 @@
+{
+  "id" : "687a09a817a2a57623b64868",
+  "updatedAt" : "2025-07-18T08:45:28.751Z",
+  "createdBy" : "67da2b5cc0a7bf236ab70f0e",
+  "gid" : "01981cb5-bb21-7dfb-8c21-b514907370e9",
+  "name" : "222",
+  "type" : "postgres",
+  "organizationId" : "687a087f17a2a57623b6481e",
+  "creationSource" : 0,
+  "datasourceStatus" : "NORMAL",
+  "detailConfig" : {
+    "database" : "22",
+    "username" : "2222",
+    "password" : "98adfda2158875799271833ddaeed6336f9d3232c117afd50fa11122a0844b24",
+    "host" : "2222",
+    "port" : 5432,
+    "usingSsl" : false,
+    "serverTimezone" : null,
+    "enableTurnOffPreparedStatement" : false,
+    "extParams" : { },
+    "readonly" : false
+  },
+  "commitId" : null,
+  "changeType" : "CREATE",
+  "lastCommitAt" : null
+}
