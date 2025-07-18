@@ -1,51 +1,63 @@
 {
-  "id" : "687a093617a2a57623b64843",
-  "gid" : "01981cb3-fdc9-74e9-ad54-643897b69554",
-  "name" : "tungth",
-  "applicationType" : 3,
+  "id" : "687a1b0468013a5bd03b9b50",
+  "gid" : "01981cf9-87cc-7f55-b3c9-60864e6716c5",
+  "name" : "cccc",
+  "applicationType" : 2,
   "applicationStatus" : "NORMAL",
   "editingApplicationDSL" : {
     "ui" : {
-      "compType" : "navV2_VNPT",
+      "compType" : "module",
       "comp" : {
-        "header" : {
-          "showHeader" : false,
-          "slot" : {
-            "container" : {
-              "layout" : { }
-            }
-          }
+        "events" : {
+          "enableEventTestMessage" : true
         },
-        "headerHeight" : "100",
-        "dataOptionType" : "manual",
-        "items" : [ {
-          "label" : "Home",
-          "action" : {
-            "compType" : "openApp",
-            "comp" : {
-              "app" : {
-                "appId" : "687a094a17a2a57623b64852",
-                "error" : "",
+        "container" : {
+          "items" : {
+            "111aa43b" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
                 "autoHeight" : "auto",
-                "scrollbars" : false,
-                "loadModuleInDomWhenHide" : false,
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
                 "showDataLoadingIndicators" : false,
                 "preventStyleOverwriting" : false,
                 "appliedThemeId" : "",
                 "version" : "latest"
               },
-              "queryParam" : [ { } ],
-              "hashParam" : [ { } ],
-              "hideWhenNoPermission" : true
+              "name" : "text1"
             }
           },
-          "itemKey" : "3769e335"
-        } ],
-        "siderWidth" : "20%",
-        "siderCollapsedWidth" : "20px",
-        "siderCollapsible" : false,
-        "showIconsWhenCollapsed" : "hide",
-        "showIconsmenutabCollapsed" : "show",
+          "layout" : {
+            "111aa43b" : {
+              "i" : "111aa43b",
+              "h" : 24,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
         "showDataLoadingIndicators" : false,
         "preventStyleOverwriting" : false,
         "appliedThemeId" : "",
@@ -123,59 +135,71 @@
   "publicToMarketplace" : false,
   "agencyProfile" : false,
   "editingUserId" : "67da2b5cc0a7bf236ab70f0e",
-  "lastEditedAt" : "2025-07-18T08:44:00.121Z",
-  "createdAt" : "2025-07-18T08:43:34.758Z",
-  "changeType" : "NONE",
-  "updatedAt" : "2025-07-18T09:13:09.922Z",
+  "lastEditedAt" : "2025-07-18T09:59:44.849Z",
+  "createdAt" : "2025-07-18T09:59:32.070Z",
+  "changeType" : "CREATE",
+  "updatedAt" : "2025-07-18T09:59:44.851Z",
   "createdBy" : "67da2b5cc0a7bf236ab70f0e",
   "slug" : null,
   "organizationId" : "687a087f17a2a57623b6481e",
-  "commitId" : "git-341f5205-d30d-4e96-98eb-89cb75878b82",
-  "lastCommitAt" : "2025-07-18T09:13:09.921Z",
+  "commitId" : null,
+  "lastCommitAt" : null,
   "editingQueries" : [ ],
   "editingModules" : [ ],
   "editingApplicationDSLOrNull" : {
     "ui" : {
-      "compType" : "navV2_VNPT",
+      "compType" : "module",
       "comp" : {
-        "header" : {
-          "showHeader" : false,
-          "slot" : {
-            "container" : {
-              "layout" : { }
-            }
-          }
+        "events" : {
+          "enableEventTestMessage" : true
         },
-        "headerHeight" : "100",
-        "dataOptionType" : "manual",
-        "items" : [ {
-          "label" : "Home",
-          "action" : {
-            "compType" : "openApp",
-            "comp" : {
-              "app" : {
-                "appId" : "687a094a17a2a57623b64852",
-                "error" : "",
+        "container" : {
+          "items" : {
+            "111aa43b" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
                 "autoHeight" : "auto",
-                "scrollbars" : false,
-                "loadModuleInDomWhenHide" : false,
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
                 "showDataLoadingIndicators" : false,
                 "preventStyleOverwriting" : false,
                 "appliedThemeId" : "",
                 "version" : "latest"
               },
-              "queryParam" : [ { } ],
-              "hashParam" : [ { } ],
-              "hideWhenNoPermission" : true
+              "name" : "text1"
             }
           },
-          "itemKey" : "3769e335"
-        } ],
-        "siderWidth" : "20%",
-        "siderCollapsedWidth" : "20px",
-        "siderCollapsible" : false,
-        "showIconsWhenCollapsed" : "hide",
-        "showIconsmenutabCollapsed" : "show",
+          "layout" : {
+            "111aa43b" : {
+              "i" : "111aa43b",
+              "h" : 24,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
         "showDataLoadingIndicators" : false,
         "preventStyleOverwriting" : false,
         "appliedThemeId" : "",

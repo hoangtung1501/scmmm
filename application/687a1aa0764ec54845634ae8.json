@@ -1,7 +1,7 @@
 {
-  "id" : "687a094a17a2a57623b64852",
-  "gid" : "01981cb4-4b2c-7253-9075-bb75f0e9abe4",
-  "name" : "tungth_home",
+  "id" : "687a1aa0764ec54845634ae8",
+  "gid" : "01981cf8-027a-73f8-8aec-b65a58b11928",
+  "name" : "bbbb",
   "applicationType" : 2,
   "applicationStatus" : "NORMAL",
   "editingApplicationDSL" : {
@@ -13,25 +13,25 @@
         },
         "container" : {
           "layout" : {
-            "2c832107" : {
-              "i" : "2c832107",
-              "h" : 6,
+            "fffaa72c" : {
+              "i" : "fffaa72c",
+              "h" : 8,
               "w" : 7,
               "x" : 0,
-              "y" : 0,
+              "y" : 46,
               "pos" : 0
             },
-            "8f6c10ab" : {
-              "i" : "8f6c10ab",
-              "h" : 65,
+            "dcc20571" : {
+              "i" : "dcc20571",
+              "h" : 40,
               "w" : 24,
               "x" : 0,
-              "y" : 70,
+              "y" : 6,
               "pos" : 1
             }
           },
           "items" : {
-            "2c832107" : {
+            "fffaa72c" : {
               "compType" : "text",
               "comp" : {
                 "text" : "### 👋 Hello, {{currentUser.name}}",
@@ -59,7 +59,7 @@
               },
               "name" : "text1"
             },
-            "8f6c10ab" : {
+            "dcc20571" : {
               "compType" : "dataGridEE",
               "comp" : {
                 "dataOptions" : "manual",
@@ -249,94 +249,8 @@
         "version" : "latest"
       }
     },
-    "queries" : [ {
-      "compType" : "mysql",
-      "comp" : {
-        "commandType" : "INSERT",
-        "command" : {
-          "table" : "",
-          "changeSet" : {
-            "compType" : "KEY_VALUE_PAIRS",
-            "comp" : [ {
-              "column" : "",
-              "value" : ""
-            } ]
-          }
-        },
-        "mode" : "GUI",
-        "sql" : "",
-        "disablePreparedStatement" : false,
-        "isSecure" : false
-      },
-      "id" : "koqmg9ddswputaph5ofons81",
-      "name" : "query1",
-      "order" : 1752828332260,
-      "datasourceId" : "687a097f17a2a57623b64865",
-      "triggerType" : "onTimeout",
-      "onEvent" : [ ],
-      "notification" : {
-        "showSuccess" : true,
-        "showFail" : true,
-        "fail" : [ { } ]
-      },
-      "timeout" : "",
-      "confirmationModal" : { },
-      "variables" : [ ],
-      "periodic" : false,
-      "periodicTime" : "",
-      "cancelPrevious" : false,
-      "depQueryName" : "",
-      "delayTime" : "",
-      "isSecure" : false,
-      "externalToken" : ""
-    }, {
-      "compType" : "mysql",
-      "comp" : {
-        "commandType" : "INSERT",
-        "command" : {
-          "table" : "",
-          "changeSet" : {
-            "compType" : "KEY_VALUE_PAIRS",
-            "comp" : [ {
-              "column" : "",
-              "value" : ""
-            } ]
-          }
-        },
-        "mode" : "SQL",
-        "sql" : "",
-        "disablePreparedStatement" : false,
-        "isSecure" : false
-      },
-      "id" : "827248cq9zbesy0da5v65rbr",
-      "name" : "query2",
-      "order" : 1752828938134,
-      "datasourceId" : "687a097f17a2a57623b64865",
-      "triggerType" : "automatic",
-      "onEvent" : [ ],
-      "notification" : {
-        "showSuccess" : true,
-        "showFail" : true,
-        "fail" : [ { } ]
-      },
-      "timeout" : "",
-      "confirmationModal" : { },
-      "variables" : [ ],
-      "periodic" : false,
-      "periodicTime" : "",
-      "cancelPrevious" : false,
-      "depQueryName" : "",
-      "delayTime" : "",
-      "isSecure" : false,
-      "externalToken" : ""
-    } ],
     "refTree" : {
-      "value" : "",
-      "items" : [ {
-        "value" : "query1"
-      }, {
-        "value" : "query2"
-      } ]
+      "value" : ""
     },
     "hooks" : [ {
       "compType" : "urlParams",
@@ -406,86 +320,16 @@
   "publicToMarketplace" : false,
   "agencyProfile" : false,
   "editingUserId" : "67da2b5cc0a7bf236ab70f0e",
-  "lastEditedAt" : "2025-07-18T10:00:26.841Z",
-  "createdAt" : "2025-07-18T08:43:54.562Z",
+  "lastEditedAt" : "2025-07-18T09:58:07.222Z",
+  "createdAt" : "2025-07-18T09:57:52.404Z",
   "changeType" : "UPDATE",
-  "updatedAt" : "2025-07-18T10:02:50.290Z",
+  "updatedAt" : "2025-07-18T09:58:07.227Z",
   "createdBy" : "67da2b5cc0a7bf236ab70f0e",
   "slug" : null,
   "organizationId" : "687a087f17a2a57623b6481e",
-  "commitId" : "git-341f5205-d30d-4e96-98eb-89cb75878b82",
-  "lastCommitAt" : "2025-07-18T09:13:09.938Z",
-  "editingQueries" : [ {
-    "id" : "koqmg9ddswputaph5ofons81",
-    "gid" : null,
-    "name" : "query1",
-    "triggerType" : "onTimeout",
-    "baseQuery" : {
-      "datasourceId" : "687a097f17a2a57623b64865",
-      "compType" : "mysql",
-      "comp" : {
-        "commandType" : "INSERT",
-        "command" : {
-          "table" : "",
-          "changeSet" : {
-            "compType" : "KEY_VALUE_PAIRS",
-            "comp" : [ {
-              "column" : "",
-              "value" : ""
-            } ]
-          }
-        },
-        "mode" : "GUI",
-        "sql" : "",
-        "disablePreparedStatement" : false,
-        "isSecure" : false
-      },
-      "timeout" : ""
-    },
-    "timeoutStr" : "",
-    "usingLibraryQuery" : false,
-    "libraryRecordQueryId" : {
-      "libraryQueryId" : null,
-      "libraryQueryRecordId" : null,
-      "usingEditingRecord" : true,
-      "usingLiveRecord" : false
-    }
-  }, {
-    "id" : "827248cq9zbesy0da5v65rbr",
-    "gid" : null,
-    "name" : "query2",
-    "triggerType" : "automatic",
-    "baseQuery" : {
-      "datasourceId" : "687a097f17a2a57623b64865",
-      "compType" : "mysql",
-      "comp" : {
-        "commandType" : "INSERT",
-        "command" : {
-          "table" : "",
-          "changeSet" : {
-            "compType" : "KEY_VALUE_PAIRS",
-            "comp" : [ {
-              "column" : "",
-              "value" : ""
-            } ]
-          }
-        },
-        "mode" : "SQL",
-        "sql" : "",
-        "disablePreparedStatement" : false,
-        "isSecure" : false
-      },
-      "timeout" : ""
-    },
-    "timeoutStr" : "",
-    "usingLibraryQuery" : false,
-    "libraryRecordQueryId" : {
-      "libraryQueryId" : null,
-      "libraryQueryRecordId" : null,
-      "usingEditingRecord" : true,
-      "usingLiveRecord" : false
-    }
-  } ],
+  "commitId" : null,
+  "lastCommitAt" : null,
+  "editingQueries" : [ ],
   "editingModules" : [ ],
   "editingApplicationDSLOrNull" : {
     "ui" : {
@@ -496,25 +340,25 @@
         },
         "container" : {
           "layout" : {
-            "2c832107" : {
-              "i" : "2c832107",
-              "h" : 6,
+            "fffaa72c" : {
+              "i" : "fffaa72c",
+              "h" : 8,
               "w" : 7,
               "x" : 0,
-              "y" : 0,
+              "y" : 46,
               "pos" : 0
             },
-            "8f6c10ab" : {
-              "i" : "8f6c10ab",
-              "h" : 65,
+            "dcc20571" : {
+              "i" : "dcc20571",
+              "h" : 40,
               "w" : 24,
               "x" : 0,
-              "y" : 70,
+              "y" : 6,
               "pos" : 1
             }
           },
           "items" : {
-            "2c832107" : {
+            "fffaa72c" : {
               "compType" : "text",
               "comp" : {
                 "text" : "### 👋 Hello, {{currentUser.name}}",
@@ -542,7 +386,7 @@
               },
               "name" : "text1"
             },
-            "8f6c10ab" : {
+            "dcc20571" : {
               "compType" : "dataGridEE",
               "comp" : {
                 "dataOptions" : "manual",
@@ -732,94 +576,8 @@
         "version" : "latest"
       }
     },
-    "queries" : [ {
-      "compType" : "mysql",
-      "comp" : {
-        "commandType" : "INSERT",
-        "command" : {
-          "table" : "",
-          "changeSet" : {
-            "compType" : "KEY_VALUE_PAIRS",
-            "comp" : [ {
-              "column" : "",
-              "value" : ""
-            } ]
-          }
-        },
-        "mode" : "GUI",
-        "sql" : "",
-        "disablePreparedStatement" : false,
-        "isSecure" : false
-      },
-      "id" : "koqmg9ddswputaph5ofons81",
-      "name" : "query1",
-      "order" : 1752828332260,
-      "datasourceId" : "687a097f17a2a57623b64865",
-      "triggerType" : "onTimeout",
-      "onEvent" : [ ],
-      "notification" : {
-        "showSuccess" : true,
-        "showFail" : true,
-        "fail" : [ { } ]
-      },
-      "timeout" : "",
-      "confirmationModal" : { },
-      "variables" : [ ],
-      "periodic" : false,
-      "periodicTime" : "",
-      "cancelPrevious" : false,
-      "depQueryName" : "",
-      "delayTime" : "",
-      "isSecure" : false,
-      "externalToken" : ""
-    }, {
-      "compType" : "mysql",
-      "comp" : {
-        "commandType" : "INSERT",
-        "command" : {
-          "table" : "",
-          "changeSet" : {
-            "compType" : "KEY_VALUE_PAIRS",
-            "comp" : [ {
-              "column" : "",
-              "value" : ""
-            } ]
-          }
-        },
-        "mode" : "SQL",
-        "sql" : "",
-        "disablePreparedStatement" : false,
-        "isSecure" : false
-      },
-      "id" : "827248cq9zbesy0da5v65rbr",
-      "name" : "query2",
-      "order" : 1752828938134,
-      "datasourceId" : "687a097f17a2a57623b64865",
-      "triggerType" : "automatic",
-      "onEvent" : [ ],
-      "notification" : {
-        "showSuccess" : true,
-        "showFail" : true,
-        "fail" : [ { } ]
-      },
-      "timeout" : "",
-      "confirmationModal" : { },
-      "variables" : [ ],
-      "periodic" : false,
-      "periodicTime" : "",
-      "cancelPrevious" : false,
-      "depQueryName" : "",
-      "delayTime" : "",
-      "isSecure" : false,
-      "externalToken" : ""
-    } ],
     "refTree" : {
-      "value" : "",
-      "items" : [ {
-        "value" : "query1"
-      }, {
-        "value" : "query2"
-      } ]
+      "value" : ""
     },
     "hooks" : [ {
       "compType" : "urlParams",

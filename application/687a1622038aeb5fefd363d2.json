@@ -1,0 +1,1322 @@
+{
+  "id" : "687a1622038aeb5fefd363d2",
+  "gid" : "01981ce6-7595-78b2-ac19-2d2b268cf367",
+  "name" : "testdiscard",
+  "applicationType" : 2,
+  "applicationStatus" : "NORMAL",
+  "editingApplicationDSL" : {
+    "ui" : {
+      "compType" : "module",
+      "comp" : {
+        "events" : {
+          "enableEventTestMessage" : true
+        },
+        "container" : {
+          "layout" : {
+            "2b715b6e" : {
+              "i" : "2b715b6e",
+              "h" : 8,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            },
+            "494f7d83" : {
+              "i" : "494f7d83",
+              "h" : 40,
+              "w" : 23,
+              "x" : 0,
+              "y" : 11,
+              "pos" : 1
+            }
+          },
+          "items" : {
+            "2b715b6e" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
+                "autoHeight" : "auto",
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "text1"
+            },
+            "8890c79d" : {
+              "compType" : "tableEE",
+              "comp" : {
+                "showRowGridBorder" : true,
+                "showHRowGridBorder" : true,
+                "autoHeight" : "auto",
+                "data" : "[\n {\n  \"id\": 1,\n  \"name\": \"Reagen Gilberthorpe\",\n  \"date\": \"7/5/2022\",\n  \"department\": \"Marketing\"\n },\n {\n  \"id\": 2,\n  \"name\": \"Haroun Lortzing\",\n  \"date\": \"11/6/2022\",\n  \"department\": \"Human Resources\"\n },\n {\n  \"id\": 3,\n  \"name\": \"Garret Kilmaster\",\n  \"date\": \"11/14/2021\",\n  \"department\": \"Research and Development\"\n },\n {\n  \"id\": 4,\n  \"name\": \"Israel Harrowsmith\",\n  \"date\": \"4/3/2022\",\n  \"department\": \"Training\"\n },\n {\n  \"id\": 5,\n  \"name\": \"Loren O'Lagen\",\n  \"date\": \"9/10/2022\",\n  \"department\": \"Services\"\n },\n {\n  \"id\": 6,\n  \"name\": \"Wallis Hothersall\",\n  \"date\": \"4/18/2022\",\n  \"department\": \"Accounting\"\n },\n {\n  \"id\": 7,\n  \"name\": \"Kaia Biskup\",\n  \"date\": \"3/4/2022\",\n  \"department\": \"Sales\"\n },\n {\n  \"id\": 8,\n  \"name\": \"Travers Saterweyte\",\n  \"date\": \"1/9/2022\",\n  \"department\": \"Human Resources\"\n },\n {\n  \"id\": 9,\n  \"name\": \"Mikey Niemetz\",\n  \"date\": \"1/4/2022\",\n  \"department\": \"Marketing\"\n },\n {\n  \"id\": 10,\n  \"name\": \"Mano Meckiff\",\n  \"date\": \"2/19/2022\",\n  \"department\": \"Research and Development\"\n }\n]",
+                "columns" : [ {
+                  "title" : "ID",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "id",
+                  "width" : "55",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "text",
+                    "comp" : {
+                      "text" : "{{currentCell}}"
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                }, {
+                  "title" : "Name",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "name",
+                  "width" : "200",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "text",
+                    "comp" : {
+                      "text" : "{{currentCell}}"
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                }, {
+                  "title" : "Date",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "date",
+                  "width" : "110",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "text",
+                    "comp" : {
+                      "text" : "{{currentCell}}"
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                }, {
+                  "title" : "Department",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "department",
+                  "width" : "250",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "tag",
+                    "comp" : {
+                      "text" : "{{currentCell}}",
+                      "tagColors" : {
+                        "optionType" : "manual",
+                        "manual" : {
+                          "manual" : [ {
+                            "label" : "Tag1",
+                            "icon" : "/icon:solid/tag",
+                            "colorType" : "preset",
+                            "presetColor" : "blue",
+                            "color" : "#1890ff",
+                            "textColor" : "#ffffff",
+                            "border" : "",
+                            "radius" : "",
+                            "margin" : "",
+                            "padding" : ""
+                          }, {
+                            "label" : "Tag2",
+                            "icon" : "/icon:solid/tag",
+                            "colorType" : "preset",
+                            "presetColor" : "green",
+                            "color" : "#1890ff",
+                            "textColor" : "#ffffff",
+                            "border" : "",
+                            "radius" : "",
+                            "margin" : "",
+                            "padding" : ""
+                          } ]
+                        },
+                        "mapData" : {
+                          "data" : "[]",
+                          "mapData" : {
+                            "colorType" : "preset",
+                            "presetColor" : "blue",
+                            "color" : "#1890ff",
+                            "textColor" : "#ffffff",
+                            "border" : "",
+                            "radius" : "",
+                            "margin" : "",
+                            "padding" : ""
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                } ],
+                "size" : "middle",
+                "selection" : {
+                  "mode" : "single"
+                },
+                "pagination" : {
+                  "changeablePageSize" : null,
+                  "pageSizeOptions" : "[5, 10, 20, 50]"
+                },
+                "sort" : [ ],
+                "toolbar" : {
+                  "showRefresh" : true,
+                  "showDownload" : true,
+                  "showFilter" : true,
+                  "position" : "below",
+                  "columnSeparator" : ",",
+                  "showUpdateButtons" : true
+                },
+                "summaryRows" : "1",
+                "hideToolbar" : false,
+                "rowAutoHeight" : "auto",
+                "tableAutoHeight" : "auto",
+                "expansion" : {
+                  "slot" : {
+                    "container" : {
+                      "layout" : { }
+                    }
+                  }
+                },
+                "editModeClicks" : "single",
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "tableEE1"
+            },
+            "494f7d83" : {
+              "compType" : "dataGridEE",
+              "comp" : {
+                "dataManual" : "[\n {\n  \"ID\": 1,\n  \"OrderNumber\": 35703,\n  \"OrderDate\": \"2014-04-10\",\n  \"SaleAmount\": 11800,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 12175,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 4,\n  \"OrderNumber\": 35711,\n  \"OrderDate\": \"2014-01-12\",\n  \"SaleAmount\": 16050,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 16550,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Jose\",\n  \"Employee\": \"Jim Packard\"\n },\n {\n  \"ID\": 5,\n  \"OrderNumber\": 35714,\n  \"OrderDate\": \"2014-01-22\",\n  \"SaleAmount\": 14750,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 15250,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 7,\n  \"OrderNumber\": 35983,\n  \"OrderDate\": \"2014-02-07\",\n  \"SaleAmount\": 3725,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 3850,\n  \"CustomerStoreState\": \"Colorado\",\n  \"CustomerStoreCity\": \"Denver\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 9,\n  \"OrderNumber\": 36987,\n  \"OrderDate\": \"2014-03-11\",\n  \"SaleAmount\": 14200,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 14800,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 11,\n  \"OrderNumber\": 38466,\n  \"OrderDate\": \"2014-03-01\",\n  \"SaleAmount\": 7800,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 8200,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 15,\n  \"OrderNumber\": 39874,\n  \"OrderDate\": \"2014-02-04\",\n  \"SaleAmount\": 9050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 19100,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 18,\n  \"OrderNumber\": 42847,\n  \"OrderDate\": \"2014-02-15\",\n  \"SaleAmount\": 20400,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 20800,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 19,\n  \"OrderNumber\": 43982,\n  \"OrderDate\": \"2014-05-29\",\n  \"SaleAmount\": 6050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 6250,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 29,\n  \"OrderNumber\": 56272,\n  \"OrderDate\": \"2014-02-06\",\n  \"SaleAmount\": 15850,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 16350,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 30,\n  \"OrderNumber\": 57429,\n  \"OrderDate\": \"2013-12-31\",\n  \"SaleAmount\": 11050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 11400,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 32,\n  \"OrderNumber\": 58292,\n  \"OrderDate\": \"2014-05-13\",\n  \"SaleAmount\": 13500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 13800,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 36,\n  \"OrderNumber\": 62427,\n  \"OrderDate\": \"2014-01-27\",\n  \"SaleAmount\": 23500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 24000,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 39,\n  \"OrderNumber\": 65977,\n  \"OrderDate\": \"2014-02-05\",\n  \"SaleAmount\": 2550,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 2625,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 40,\n  \"OrderNumber\": 66947,\n  \"OrderDate\": \"2014-03-23\",\n  \"SaleAmount\": 3500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 3600,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 42,\n  \"OrderNumber\": 68428,\n  \"OrderDate\": \"2014-04-10\",\n  \"SaleAmount\": 10500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 10900,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 43,\n  \"OrderNumber\": 69477,\n  \"OrderDate\": \"2014-03-09\",\n  \"SaleAmount\": 14200,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 14500,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Anaheim\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 46,\n  \"OrderNumber\": 72947,\n  \"OrderDate\": \"2014-01-14\",\n  \"SaleAmount\": 13350,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 13650,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 47,\n  \"OrderNumber\": 73088,\n  \"OrderDate\": \"2014-03-25\",\n  \"SaleAmount\": 8600,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 8850,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Reno\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 50,\n  \"OrderNumber\": 76927,\n  \"OrderDate\": \"2014-04-27\",\n  \"SaleAmount\": 9800,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 10050,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 51,\n  \"OrderNumber\": 77297,\n  \"OrderDate\": \"2014-04-30\",\n  \"SaleAmount\": 10850,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 11100,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 56,\n  \"OrderNumber\": 84744,\n  \"OrderDate\": \"2014-02-10\",\n  \"SaleAmount\": 4650,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 4750,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 57,\n  \"OrderNumber\": 85028,\n  \"OrderDate\": \"2014-05-17\",\n  \"SaleAmount\": 2575,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 2625,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Reno\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 59,\n  \"OrderNumber\": 87297,\n  \"OrderDate\": \"2014-04-21\",\n  \"SaleAmount\": 14200,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 0,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 60,\n  \"OrderNumber\": 88027,\n  \"OrderDate\": \"2014-02-14\",\n  \"SaleAmount\": 13650,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 14050,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 65,\n  \"OrderNumber\": 94726,\n  \"OrderDate\": \"2014-05-22\",\n  \"SaleAmount\": 20500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 20800,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Jose\",\n  \"Employee\": \"Jim Packard\"\n },\n {\n  \"ID\": 66,\n  \"OrderNumber\": 95266,\n  \"OrderDate\": \"2014-03-10\",\n  \"SaleAmount\": 9050,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 9250,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 69,\n  \"OrderNumber\": 98477,\n  \"OrderDate\": \"2014-01-01\",\n  \"SaleAmount\": 23500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 23800,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 70,\n  \"OrderNumber\": 99247,\n  \"OrderDate\": \"2014-02-08\",\n  \"SaleAmount\": 2100,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 2150,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 78,\n  \"OrderNumber\": 174884,\n  \"OrderDate\": \"2014-04-10\",\n  \"SaleAmount\": 7200,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 7350,\n  \"CustomerStoreState\": \"Colorado\",\n  \"CustomerStoreCity\": \"Denver\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 81,\n  \"OrderNumber\": 188877,\n  \"OrderDate\": \"2014-02-11\",\n  \"SaleAmount\": 8750,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 8900,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 82,\n  \"OrderNumber\": 191883,\n  \"OrderDate\": \"2014-02-05\",\n  \"SaleAmount\": 9900,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 10150,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 83,\n  \"OrderNumber\": 192474,\n  \"OrderDate\": \"2014-01-21\",\n  \"SaleAmount\": 12800,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 13100,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Anaheim\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 84,\n  \"OrderNumber\": 193847,\n  \"OrderDate\": \"2014-03-21\",\n  \"SaleAmount\": 14100,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 14350,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Diego\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 85,\n  \"OrderNumber\": 194877,\n  \"OrderDate\": \"2014-03-06\",\n  \"SaleAmount\": 4750,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 4950,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Jose\",\n  \"Employee\": \"Jim Packard\"\n },\n {\n  \"ID\": 86,\n  \"OrderNumber\": 195746,\n  \"OrderDate\": \"2014-05-26\",\n  \"SaleAmount\": 9050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 9250,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 87,\n  \"OrderNumber\": 197474,\n  \"OrderDate\": \"2014-03-02\",\n  \"SaleAmount\": 6400,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 6600,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Reno\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 88,\n  \"OrderNumber\": 198746,\n  \"OrderDate\": \"2014-05-09\",\n  \"SaleAmount\": 15700,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 16050,\n  \"CustomerStoreState\": \"Colorado\",\n  \"CustomerStoreCity\": \"Denver\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 91,\n  \"OrderNumber\": 214222,\n  \"OrderDate\": \"2014-02-08T00:00:00\",\n  \"SaleAmount\": 11050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 11250,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n }\n]",
+                "dataApi" : "",
+                "columns" : [ {
+                  "dataField" : "ID",
+                  "label" : "ID",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "OrderNumber",
+                  "label" : "OrderNumber",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "OrderDate",
+                  "label" : "OrderDate",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "SaleAmount",
+                  "label" : "SaleAmount",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "Terms",
+                  "label" : "Terms",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "TotalAmount",
+                  "label" : "TotalAmount",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "CustomerStoreState",
+                  "label" : "CustomerStoreState",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "CustomerStoreCity",
+                  "label" : "CustomerStoreCity",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "Employee",
+                  "label" : "Employee",
+                  "dataType" : "string"
+                } ],
+                "editable" : true,
+                "exportMode" : "xlsx",
+                "pageSize" : 5,
+                "showSummary" : true,
+                "showBorders" : true
+              },
+              "name" : "dataGridEE1"
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
+        "showDataLoadingIndicators" : false,
+        "preventStyleOverwriting" : false,
+        "appliedThemeId" : "",
+        "version" : "latest"
+      }
+    },
+    "refTree" : {
+      "value" : ""
+    },
+    "hooks" : [ {
+      "compType" : "urlParams",
+      "comp" : { },
+      "name" : "url"
+    }, {
+      "compType" : "dayJsLib",
+      "comp" : { },
+      "name" : "dayjs"
+    }, {
+      "compType" : "lodashJsLib",
+      "comp" : { },
+      "name" : "_"
+    }, {
+      "compType" : "utils",
+      "comp" : { },
+      "name" : "utils"
+    }, {
+      "compType" : "message",
+      "comp" : { },
+      "name" : "message"
+    }, {
+      "compType" : "toast",
+      "comp" : { },
+      "name" : "toast"
+    }, {
+      "compType" : "localStorage",
+      "comp" : { },
+      "name" : "localStorage"
+    }, {
+      "compType" : "currentUser",
+      "comp" : { },
+      "name" : "currentUser"
+    }, {
+      "compType" : "screenInfo",
+      "comp" : { },
+      "name" : "screenInfo"
+    }, {
+      "compType" : "theme",
+      "comp" : { },
+      "name" : "theme"
+    } ],
+    "settings" : {
+      "title" : "",
+      "description" : "",
+      "category" : "Business",
+      "showHeaderInPublic" : false,
+      "themeId" : "default",
+      "preventAppStylesOverwriting" : true,
+      "disableCollision" : false,
+      "lowcoderCompVersion" : "latest",
+      "maxWidth" : {
+        "dropdown" : "1920",
+        "input" : 0
+      },
+      "gridRowCount" : "Infinity",
+      "gridPaddingX" : "20",
+      "gridPaddingY" : "20"
+    },
+    "preload" : {
+      "script" : "",
+      "css" : "",
+      "globalCSS" : ""
+    }
+  },
+  "publicToAll" : false,
+  "publicToMarketplace" : false,
+  "agencyProfile" : false,
+  "editingUserId" : "67da2b5cc0a7bf236ab70f0e",
+  "lastEditedAt" : "2025-07-18T09:39:21.668Z",
+  "createdAt" : "2025-07-18T09:38:42.213Z",
+  "changeType" : "UPDATE",
+  "updatedAt" : "2025-07-18T09:39:53.916Z",
+  "createdBy" : "67da2b5cc0a7bf236ab70f0e",
+  "slug" : null,
+  "organizationId" : "687a087f17a2a57623b6481e",
+  "commitId" : null,
+  "lastCommitAt" : null,
+  "editingQueries" : [ ],
+  "editingModules" : [ ],
+  "editingApplicationDSLOrNull" : {
+    "ui" : {
+      "compType" : "module",
+      "comp" : {
+        "events" : {
+          "enableEventTestMessage" : true
+        },
+        "container" : {
+          "layout" : {
+            "2b715b6e" : {
+              "i" : "2b715b6e",
+              "h" : 8,
+              "w" : 7,
+              "x" : 0,
+              "y" : 0,
+              "pos" : 0
+            },
+            "494f7d83" : {
+              "i" : "494f7d83",
+              "h" : 40,
+              "w" : 23,
+              "x" : 0,
+              "y" : 11,
+              "pos" : 1
+            }
+          },
+          "items" : {
+            "2b715b6e" : {
+              "compType" : "text",
+              "comp" : {
+                "text" : "### 👋 Hello, {{currentUser.name}}",
+                "autoHeight" : "auto",
+                "type" : "markdown",
+                "horizontalAlignment" : "left",
+                "contentScrollBar" : true,
+                "verticalAlignment" : "center",
+                "margin" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "padding" : {
+                  "left" : "",
+                  "right" : "",
+                  "top" : "",
+                  "bottom" : ""
+                },
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "text1"
+            },
+            "8890c79d" : {
+              "compType" : "tableEE",
+              "comp" : {
+                "showRowGridBorder" : true,
+                "showHRowGridBorder" : true,
+                "autoHeight" : "auto",
+                "data" : "[\n {\n  \"id\": 1,\n  \"name\": \"Reagen Gilberthorpe\",\n  \"date\": \"7/5/2022\",\n  \"department\": \"Marketing\"\n },\n {\n  \"id\": 2,\n  \"name\": \"Haroun Lortzing\",\n  \"date\": \"11/6/2022\",\n  \"department\": \"Human Resources\"\n },\n {\n  \"id\": 3,\n  \"name\": \"Garret Kilmaster\",\n  \"date\": \"11/14/2021\",\n  \"department\": \"Research and Development\"\n },\n {\n  \"id\": 4,\n  \"name\": \"Israel Harrowsmith\",\n  \"date\": \"4/3/2022\",\n  \"department\": \"Training\"\n },\n {\n  \"id\": 5,\n  \"name\": \"Loren O'Lagen\",\n  \"date\": \"9/10/2022\",\n  \"department\": \"Services\"\n },\n {\n  \"id\": 6,\n  \"name\": \"Wallis Hothersall\",\n  \"date\": \"4/18/2022\",\n  \"department\": \"Accounting\"\n },\n {\n  \"id\": 7,\n  \"name\": \"Kaia Biskup\",\n  \"date\": \"3/4/2022\",\n  \"department\": \"Sales\"\n },\n {\n  \"id\": 8,\n  \"name\": \"Travers Saterweyte\",\n  \"date\": \"1/9/2022\",\n  \"department\": \"Human Resources\"\n },\n {\n  \"id\": 9,\n  \"name\": \"Mikey Niemetz\",\n  \"date\": \"1/4/2022\",\n  \"department\": \"Marketing\"\n },\n {\n  \"id\": 10,\n  \"name\": \"Mano Meckiff\",\n  \"date\": \"2/19/2022\",\n  \"department\": \"Research and Development\"\n }\n]",
+                "columns" : [ {
+                  "title" : "ID",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "id",
+                  "width" : "55",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "text",
+                    "comp" : {
+                      "text" : "{{currentCell}}"
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                }, {
+                  "title" : "Name",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "name",
+                  "width" : "200",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "text",
+                    "comp" : {
+                      "text" : "{{currentCell}}"
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                }, {
+                  "title" : "Date",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "date",
+                  "width" : "110",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "text",
+                    "comp" : {
+                      "text" : "{{currentCell}}"
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                }, {
+                  "title" : "Department",
+                  "showTitle" : true,
+                  "isCustom" : false,
+                  "dataIndex" : "department",
+                  "width" : "250",
+                  "widthUnit" : "px",
+                  "minWidth" : "0",
+                  "autoWidth" : "fixed",
+                  "render" : {
+                    "compType" : "tag",
+                    "comp" : {
+                      "text" : "{{currentCell}}",
+                      "tagColors" : {
+                        "optionType" : "manual",
+                        "manual" : {
+                          "manual" : [ {
+                            "label" : "Tag1",
+                            "icon" : "/icon:solid/tag",
+                            "colorType" : "preset",
+                            "presetColor" : "blue",
+                            "color" : "#1890ff",
+                            "textColor" : "#ffffff",
+                            "border" : "",
+                            "radius" : "",
+                            "margin" : "",
+                            "padding" : ""
+                          }, {
+                            "label" : "Tag2",
+                            "icon" : "/icon:solid/tag",
+                            "colorType" : "preset",
+                            "presetColor" : "green",
+                            "color" : "#1890ff",
+                            "textColor" : "#ffffff",
+                            "border" : "",
+                            "radius" : "",
+                            "margin" : "",
+                            "padding" : ""
+                          } ]
+                        },
+                        "mapData" : {
+                          "data" : "[]",
+                          "mapData" : {
+                            "colorType" : "preset",
+                            "presetColor" : "blue",
+                            "color" : "#1890ff",
+                            "textColor" : "#ffffff",
+                            "border" : "",
+                            "radius" : "",
+                            "margin" : "",
+                            "padding" : ""
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "align" : "left",
+                  "fixed" : "close",
+                  "background" : "",
+                  "margin" : "",
+                  "text" : "",
+                  "border" : "",
+                  "borderWidth" : "",
+                  "radius" : "",
+                  "textSize" : "",
+                  "textWeight" : "normal",
+                  "fontFamily" : "sans-serif",
+                  "fontStyle" : "normal",
+                  "textOverflow" : "wrap",
+                  "linkColor" : "#3377ff",
+                  "linkHoverColor" : "",
+                  "linkActiveColor" : "",
+                  "summaryColumns" : [ {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  }, {
+                    "isCustom" : false,
+                    "dataIndex" : "",
+                    "render" : {
+                      "compType" : "text",
+                      "comp" : { }
+                    },
+                    "align" : "left",
+                    "background" : "",
+                    "margin" : "",
+                    "text" : "",
+                    "border" : "",
+                    "radius" : "",
+                    "textSize" : "",
+                    "textWeight" : "normal",
+                    "fontFamily" : "sans-serif",
+                    "fontStyle" : "normal",
+                    "textOverflow" : "wrap",
+                    "linkColor" : "#3377ff",
+                    "linkHoverColor" : "",
+                    "linkActiveColor" : ""
+                  } ]
+                } ],
+                "size" : "middle",
+                "selection" : {
+                  "mode" : "single"
+                },
+                "pagination" : {
+                  "changeablePageSize" : null,
+                  "pageSizeOptions" : "[5, 10, 20, 50]"
+                },
+                "sort" : [ ],
+                "toolbar" : {
+                  "showRefresh" : true,
+                  "showDownload" : true,
+                  "showFilter" : true,
+                  "position" : "below",
+                  "columnSeparator" : ",",
+                  "showUpdateButtons" : true
+                },
+                "summaryRows" : "1",
+                "hideToolbar" : false,
+                "rowAutoHeight" : "auto",
+                "tableAutoHeight" : "auto",
+                "expansion" : {
+                  "slot" : {
+                    "container" : {
+                      "layout" : { }
+                    }
+                  }
+                },
+                "editModeClicks" : "single",
+                "showDataLoadingIndicators" : false,
+                "preventStyleOverwriting" : false,
+                "appliedThemeId" : "",
+                "version" : "latest"
+              },
+              "name" : "tableEE1"
+            },
+            "494f7d83" : {
+              "compType" : "dataGridEE",
+              "comp" : {
+                "dataManual" : "[\n {\n  \"ID\": 1,\n  \"OrderNumber\": 35703,\n  \"OrderDate\": \"2014-04-10\",\n  \"SaleAmount\": 11800,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 12175,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 4,\n  \"OrderNumber\": 35711,\n  \"OrderDate\": \"2014-01-12\",\n  \"SaleAmount\": 16050,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 16550,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Jose\",\n  \"Employee\": \"Jim Packard\"\n },\n {\n  \"ID\": 5,\n  \"OrderNumber\": 35714,\n  \"OrderDate\": \"2014-01-22\",\n  \"SaleAmount\": 14750,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 15250,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 7,\n  \"OrderNumber\": 35983,\n  \"OrderDate\": \"2014-02-07\",\n  \"SaleAmount\": 3725,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 3850,\n  \"CustomerStoreState\": \"Colorado\",\n  \"CustomerStoreCity\": \"Denver\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 9,\n  \"OrderNumber\": 36987,\n  \"OrderDate\": \"2014-03-11\",\n  \"SaleAmount\": 14200,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 14800,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 11,\n  \"OrderNumber\": 38466,\n  \"OrderDate\": \"2014-03-01\",\n  \"SaleAmount\": 7800,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 8200,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 15,\n  \"OrderNumber\": 39874,\n  \"OrderDate\": \"2014-02-04\",\n  \"SaleAmount\": 9050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 19100,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 18,\n  \"OrderNumber\": 42847,\n  \"OrderDate\": \"2014-02-15\",\n  \"SaleAmount\": 20400,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 20800,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 19,\n  \"OrderNumber\": 43982,\n  \"OrderDate\": \"2014-05-29\",\n  \"SaleAmount\": 6050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 6250,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 29,\n  \"OrderNumber\": 56272,\n  \"OrderDate\": \"2014-02-06\",\n  \"SaleAmount\": 15850,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 16350,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 30,\n  \"OrderNumber\": 57429,\n  \"OrderDate\": \"2013-12-31\",\n  \"SaleAmount\": 11050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 11400,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 32,\n  \"OrderNumber\": 58292,\n  \"OrderDate\": \"2014-05-13\",\n  \"SaleAmount\": 13500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 13800,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 36,\n  \"OrderNumber\": 62427,\n  \"OrderDate\": \"2014-01-27\",\n  \"SaleAmount\": 23500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 24000,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 39,\n  \"OrderNumber\": 65977,\n  \"OrderDate\": \"2014-02-05\",\n  \"SaleAmount\": 2550,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 2625,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 40,\n  \"OrderNumber\": 66947,\n  \"OrderDate\": \"2014-03-23\",\n  \"SaleAmount\": 3500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 3600,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 42,\n  \"OrderNumber\": 68428,\n  \"OrderDate\": \"2014-04-10\",\n  \"SaleAmount\": 10500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 10900,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 43,\n  \"OrderNumber\": 69477,\n  \"OrderDate\": \"2014-03-09\",\n  \"SaleAmount\": 14200,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 14500,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Anaheim\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 46,\n  \"OrderNumber\": 72947,\n  \"OrderDate\": \"2014-01-14\",\n  \"SaleAmount\": 13350,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 13650,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 47,\n  \"OrderNumber\": 73088,\n  \"OrderDate\": \"2014-03-25\",\n  \"SaleAmount\": 8600,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 8850,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Reno\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 50,\n  \"OrderNumber\": 76927,\n  \"OrderDate\": \"2014-04-27\",\n  \"SaleAmount\": 9800,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 10050,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 51,\n  \"OrderNumber\": 77297,\n  \"OrderDate\": \"2014-04-30\",\n  \"SaleAmount\": 10850,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 11100,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 56,\n  \"OrderNumber\": 84744,\n  \"OrderDate\": \"2014-02-10\",\n  \"SaleAmount\": 4650,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 4750,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 57,\n  \"OrderNumber\": 85028,\n  \"OrderDate\": \"2014-05-17\",\n  \"SaleAmount\": 2575,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 2625,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Reno\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 59,\n  \"OrderNumber\": 87297,\n  \"OrderDate\": \"2014-04-21\",\n  \"SaleAmount\": 14200,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 0,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 60,\n  \"OrderNumber\": 88027,\n  \"OrderDate\": \"2014-02-14\",\n  \"SaleAmount\": 13650,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 14050,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 65,\n  \"OrderNumber\": 94726,\n  \"OrderDate\": \"2014-05-22\",\n  \"SaleAmount\": 20500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 20800,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Jose\",\n  \"Employee\": \"Jim Packard\"\n },\n {\n  \"ID\": 66,\n  \"OrderNumber\": 95266,\n  \"OrderDate\": \"2014-03-10\",\n  \"SaleAmount\": 9050,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 9250,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 69,\n  \"OrderNumber\": 98477,\n  \"OrderDate\": \"2014-01-01\",\n  \"SaleAmount\": 23500,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 23800,\n  \"CustomerStoreState\": \"Wyoming\",\n  \"CustomerStoreCity\": \"Casper\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 70,\n  \"OrderNumber\": 99247,\n  \"OrderDate\": \"2014-02-08\",\n  \"SaleAmount\": 2100,\n  \"Terms\": \"15 Days\",\n  \"TotalAmount\": 2150,\n  \"CustomerStoreState\": \"Utah\",\n  \"CustomerStoreCity\": \"Salt Lake City\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 78,\n  \"OrderNumber\": 174884,\n  \"OrderDate\": \"2014-04-10\",\n  \"SaleAmount\": 7200,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 7350,\n  \"CustomerStoreState\": \"Colorado\",\n  \"CustomerStoreCity\": \"Denver\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 81,\n  \"OrderNumber\": 188877,\n  \"OrderDate\": \"2014-02-11\",\n  \"SaleAmount\": 8750,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 8900,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 82,\n  \"OrderNumber\": 191883,\n  \"OrderDate\": \"2014-02-05\",\n  \"SaleAmount\": 9900,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 10150,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Los Angeles\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 83,\n  \"OrderNumber\": 192474,\n  \"OrderDate\": \"2014-01-21\",\n  \"SaleAmount\": 12800,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 13100,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"Anaheim\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 84,\n  \"OrderNumber\": 193847,\n  \"OrderDate\": \"2014-03-21\",\n  \"SaleAmount\": 14100,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 14350,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Diego\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 85,\n  \"OrderNumber\": 194877,\n  \"OrderDate\": \"2014-03-06\",\n  \"SaleAmount\": 4750,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 4950,\n  \"CustomerStoreState\": \"California\",\n  \"CustomerStoreCity\": \"San Jose\",\n  \"Employee\": \"Jim Packard\"\n },\n {\n  \"ID\": 86,\n  \"OrderNumber\": 195746,\n  \"OrderDate\": \"2014-05-26\",\n  \"SaleAmount\": 9050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 9250,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Las Vegas\",\n  \"Employee\": \"Harv Mudd\"\n },\n {\n  \"ID\": 87,\n  \"OrderNumber\": 197474,\n  \"OrderDate\": \"2014-03-02\",\n  \"SaleAmount\": 6400,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 6600,\n  \"CustomerStoreState\": \"Nevada\",\n  \"CustomerStoreCity\": \"Reno\",\n  \"Employee\": \"Clark Morgan\"\n },\n {\n  \"ID\": 88,\n  \"OrderNumber\": 198746,\n  \"OrderDate\": \"2014-05-09\",\n  \"SaleAmount\": 15700,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 16050,\n  \"CustomerStoreState\": \"Colorado\",\n  \"CustomerStoreCity\": \"Denver\",\n  \"Employee\": \"Todd Hoffman\"\n },\n {\n  \"ID\": 91,\n  \"OrderNumber\": 214222,\n  \"OrderDate\": \"2014-02-08T00:00:00\",\n  \"SaleAmount\": 11050,\n  \"Terms\": \"30 Days\",\n  \"TotalAmount\": 11250,\n  \"CustomerStoreState\": \"Arizona\",\n  \"CustomerStoreCity\": \"Phoenix\",\n  \"Employee\": \"Clark Morgan\"\n }\n]",
+                "dataApi" : "",
+                "columns" : [ {
+                  "dataField" : "ID",
+                  "label" : "ID",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "OrderNumber",
+                  "label" : "OrderNumber",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "OrderDate",
+                  "label" : "OrderDate",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "SaleAmount",
+                  "label" : "SaleAmount",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "Terms",
+                  "label" : "Terms",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "TotalAmount",
+                  "label" : "TotalAmount",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "CustomerStoreState",
+                  "label" : "CustomerStoreState",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "CustomerStoreCity",
+                  "label" : "CustomerStoreCity",
+                  "dataType" : "string"
+                }, {
+                  "dataField" : "Employee",
+                  "label" : "Employee",
+                  "dataType" : "string"
+                } ],
+                "editable" : true,
+                "exportMode" : "xlsx",
+                "pageSize" : 5,
+                "showSummary" : true,
+                "showBorders" : true
+              },
+              "name" : "dataGridEE1"
+            }
+          }
+        },
+        "containerSize" : {
+          "height" : 57,
+          "width" : 24
+        },
+        "containerRowCount" : 0,
+        "showDataLoadingIndicators" : false,
+        "preventStyleOverwriting" : false,
+        "appliedThemeId" : "",
+        "version" : "latest"
+      }
+    },
+    "refTree" : {
+      "value" : ""
+    },
+    "hooks" : [ {
+      "compType" : "urlParams",
+      "comp" : { },
+      "name" : "url"
+    }, {
+      "compType" : "dayJsLib",
+      "comp" : { },
+      "name" : "dayjs"
+    }, {
+      "compType" : "lodashJsLib",
+      "comp" : { },
+      "name" : "_"
+    }, {
+      "compType" : "utils",
+      "comp" : { },
+      "name" : "utils"
+    }, {
+      "compType" : "message",
+      "comp" : { },
+      "name" : "message"
+    }, {
+      "compType" : "toast",
+      "comp" : { },
+      "name" : "toast"
+    }, {
+      "compType" : "localStorage",
+      "comp" : { },
+      "name" : "localStorage"
+    }, {
+      "compType" : "currentUser",
+      "comp" : { },
+      "name" : "currentUser"
+    }, {
+      "compType" : "screenInfo",
+      "comp" : { },
+      "name" : "screenInfo"
+    }, {
+      "compType" : "theme",
+      "comp" : { },
+      "name" : "theme"
+    } ],
+    "settings" : {
+      "title" : "",
+      "description" : "",
+      "category" : "Business",
+      "showHeaderInPublic" : false,
+      "themeId" : "default",
+      "preventAppStylesOverwriting" : true,
+      "disableCollision" : false,
+      "lowcoderCompVersion" : "latest",
+      "maxWidth" : {
+        "dropdown" : "1920",
+        "input" : 0
+      },
+      "gridRowCount" : "Infinity",
+      "gridPaddingX" : "20",
+      "gridPaddingY" : "20"
+    },
+    "preload" : {
+      "script" : "",
+      "css" : "",
+      "globalCSS" : ""
+    }
+  }
+}

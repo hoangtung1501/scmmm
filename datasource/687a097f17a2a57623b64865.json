@@ -1,6 +1,6 @@
 {
   "id" : "687a097f17a2a57623b64865",
-  "updatedAt" : "2025-07-18T08:44:47.037Z",
+  "updatedAt" : "2025-07-18T09:13:09.955Z",
   "createdBy" : "67da2b5cc0a7bf236ab70f0e",
   "gid" : "01981cb5-1827-724b-9b1a-a78549adfa54",
   "name" : "mysql",
@@ -20,7 +20,7 @@
     "extParams" : { },
     "readonly" : false
   },
-  "commitId" : null,
-  "changeType" : "CREATE",
-  "lastCommitAt" : null
+  "commitId" : "git-341f5205-d30d-4e96-98eb-89cb75878b82",
+  "changeType" : "NONE",
+  "lastCommitAt" : "2025-07-18T09:13:09.954Z"
 }
